@@ -21,6 +21,7 @@ body{
     font-weight: 700;
     font-size: 18px;
     line-height: 1.33;
+    text-transform: uppercase;
 }
 .web{
     color: var(--accent);
@@ -28,8 +29,11 @@ body{
 .studio{
     color: var(--body-text-color);
 }
-ul{
+.list{
     list-style: none;
+}
+.link{
+    text-decoration: none;
 }
 .nav-link{
     font-weight: 500;
@@ -38,11 +42,17 @@ ul{
     letter-spacing: 0.02em;
     color:var(--body-text-color);
 }
+.nav-link:clic {
+    
+}
 .nav-link:hover, 
 .nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus{
-color: var(--accent);
+color: var(--secondary-text-color);
+}
+.nav-link:active{
+    color: var(--accent);
 }
 .contacts-link{
     font-size: 16px;
@@ -62,6 +72,7 @@ letter-spacing: 0.02em;
 color: #FFFFFF;
 }
 .hero-botton{
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -129,6 +140,11 @@ color: #FFFFFF;
     display: none;
 }
 .filter-botton{
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     background-color: #E7E9FC;
     color: var(--accent);
     cursor: pointer;
@@ -140,6 +156,9 @@ color: #FFFFFF;
 }
 .footer{
     background-color:#2E2F42;
+}
+.studio-footer{
+    color: #F4F4FD;
 }
 .footer-text{
     font-size: 16px;
